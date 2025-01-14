@@ -1,0 +1,151 @@
+{
+    "ContainerEntity": {
+        "Id": "ContainerEntity",
+        "Name": "Spike",
+        "Components": {
+            "EditorDisabledCompositionComponent": {
+                "$type": "EditorDisabledCompositionComponent",
+                "Id": 4555180580211370651
+            },
+            "EditorEntityIconComponent": {
+                "$type": "EditorEntityIconComponent",
+                "Id": 4016933862114955857
+            },
+            "EditorEntitySortComponent": {
+                "$type": "EditorEntitySortComponent",
+                "Id": 11876409528466561825,
+                "Child Entity Order": [
+                    "Entity_[8289530989199]"
+                ]
+            },
+            "EditorInspectorComponent": {
+                "$type": "EditorInspectorComponent",
+                "Id": 502317827915417116
+            },
+            "EditorLockComponent": {
+                "$type": "EditorLockComponent",
+                "Id": 12575275139837147620
+            },
+            "EditorOnlyEntityComponent": {
+                "$type": "EditorOnlyEntityComponent",
+                "Id": 12743666697114006081
+            },
+            "EditorPendingCompositionComponent": {
+                "$type": "EditorPendingCompositionComponent",
+                "Id": 1091910703738242726
+            },
+            "EditorPrefabComponent": {
+                "$type": "EditorPrefabComponent",
+                "Id": 9280040974955955379
+            },
+            "EditorVisibilityComponent": {
+                "$type": "EditorVisibilityComponent",
+                "Id": 4586639478063300235
+            },
+            "TransformComponent": {
+                "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                "Id": 6543886632068285282,
+                "Parent Entity": ""
+            }
+        }
+    },
+    "Entities": {
+        "Entity_[8289530989199]": {
+            "Id": "Entity_[8289530989199]",
+            "Name": "Spike",
+            "Components": {
+                "AZ::Render::EditorMeshComponent": {
+                    "$type": "AZ::Render::EditorMeshComponent",
+                    "Id": 17701727714417141685,
+                    "Controller": {
+                        "Configuration": {
+                            "ModelAsset": {
+                                "assetId": {
+                                    "guid": "{8E6D29E3-0019-5C5A-9F5D-61656BC02DD7}",
+                                    "subId": 284874770
+                                },
+                                "assetHint": "materialeditor/viewportmodels/cone.fbx.azmodel"
+                            }
+                        }
+                    }
+                },
+                "EditorDisabledCompositionComponent": {
+                    "$type": "EditorDisabledCompositionComponent",
+                    "Id": 14409929712574987804
+                },
+                "EditorEntityIconComponent": {
+                    "$type": "EditorEntityIconComponent",
+                    "Id": 12244386194879629155
+                },
+                "EditorEntitySortComponent": {
+                    "$type": "EditorEntitySortComponent",
+                    "Id": 13107688198739090673
+                },
+                "EditorInspectorComponent": {
+                    "$type": "EditorInspectorComponent",
+                    "Id": 3880509496206231799,
+                    "ComponentOrderEntryArray": [
+                        {
+                            "ComponentId": 13610843607027788520
+                        },
+                        {
+                            "ComponentId": 17701727714417141685,
+                            "SortIndex": 1
+                        },
+                        {
+                            "ComponentId": 11148158877081066101,
+                            "SortIndex": 2
+                        }
+                    ]
+                },
+                "EditorLockComponent": {
+                    "$type": "EditorLockComponent",
+                    "Id": 8878136041658403010
+                },
+                "EditorMaterialComponent": {
+                    "$type": "EditorMaterialComponent",
+                    "Id": 11148158877081066101,
+                    "Controller": {
+                        "Configuration": {
+                            "materials": [
+                                {
+                                    "Key": {
+                                        "materialSlotStableId": 1803671422
+                                    },
+                                    "Value": {
+                                        "MaterialAsset": {
+                                            "assetId": {
+                                                "guid": "{3484ED43-1CF1-583B-8A9F-E16A0EA4880C}"
+                                            },
+                                            "assetHint": "assets/materials/enemy.azmaterial"
+                                        }
+                                    }
+                                }
+                            ]
+                        }
+                    }
+                },
+                "EditorOnlyEntityComponent": {
+                    "$type": "EditorOnlyEntityComponent",
+                    "Id": 4132284821213310094
+                },
+                "EditorPendingCompositionComponent": {
+                    "$type": "EditorPendingCompositionComponent",
+                    "Id": 5219939954923673145
+                },
+                "EditorVisibilityComponent": {
+                    "$type": "EditorVisibilityComponent",
+                    "Id": 8592105721845055741
+                },
+                "TransformComponent": {
+                    "$type": "{27F1E1A1-8D9D-4C3B-BD3A-AFB9762449C0} TransformComponent",
+                    "Id": 13610843607027788520,
+                    "Parent Entity": "ContainerEntity",
+                    "Transform Data": {
+                        "UniformScale": 0.5
+                    }
+                }
+            }
+        }
+    }
+}
